@@ -56,20 +56,9 @@ If you run into any issues or have questions, feel free to:
 - Open an issue on GitHub
 - Reach out to the community
 
-## Contributing
-
-We love contributions! Whether it's:
-- Adding new career paths
-- Improving the matching algorithm
-- Fixing bugs
-- Making the interface better
-
-Just fork the repo and send us a pull request!
 
 ## License
 
 This project is open source and available under the MIT License.
 
 ---
-
-Made with ❤️ by career enthusiasts who want to help others find their perfect career path! 
