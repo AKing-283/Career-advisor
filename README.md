@@ -1,6 +1,6 @@
 # Career Path Explorer
 
-Hey there! 👋 This is a friendly career exploration tool that helps you discover career paths that match your interests and skills. Whether you're just starting out or looking for a change, we're here to help you find your perfect career match!
+This is a friendly career exploration tool that helps you discover career paths that match your interests and skills. Whether you're just starting out or looking for a change, we're here to help you find your perfect career match!
 
 ## What's Inside?
 
