@@ -274,6 +274,23 @@ class CareerAssistant:
     def _is_off_topic(self, user_input: str) -> bool:
         input_lower = user_input.lower()
         
+        # First check if it's a career-related query
+        career_keywords = [
+            r"career", r"job", r"work", r"profession", r"occupation",
+            r"employment", r"position", r"role", r"field", r"industry",
+            r"designer", r"developer", r"engineer", r"analyst", r"manager",
+            r"specialist", r"consultant", r"advisor", r"expert", r"professional",
+            r"skills", r"experience", r"education", r"training", r"certification",
+            r"portfolio", r"resume", r"cv", r"application", r"interview",
+            r"salary", r"compensation", r"benefits", r"package", r"offer",
+            r"promotion", r"advancement", r"growth", r"development", r"progress",
+            r"creative", r"technical", r"business", r"management", r"leadership",
+            r"team", r"collaboration", r"project", r"client", r"stakeholder"
+        ]
+        
+        if any(re.search(pattern, input_lower) for pattern in career_keywords):
+            return False
+            
         patterns = {
             "current_events": [
                 r"war", r"conflict", r"attack", r"bombing", r"invasion",
