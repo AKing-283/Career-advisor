@@ -9,6 +9,9 @@ An AI-powered career guidance assistant that helps users explore career paths, u
 - Industry insights
 - Personalized career recommendations
 - Interactive career guidance
+- Optimized API performance with efficient response handling
+- Smart pattern matching for accurate career queries
+- Intelligent off-topic detection
 
 ## Setup
 
@@ -56,6 +59,28 @@ The application requires a Together AI API key to function properly. Follow thes
    TOGETHER_API_KEY=your_api_key_here
    ```
 5. Make sure the `.env` file is in your `.gitignore` to keep your API key secure
+
+## Performance Optimizations
+
+The application includes several optimizations for better performance:
+
+1. **API Response Optimization**:
+   - Efficient handling of API responses
+   - Smart caching of common queries
+   - Optimized token usage
+   - Reduced API call latency
+
+2. **Pattern Matching**:
+   - Fast and accurate career query detection
+   - Efficient off-topic filtering
+   - Smart keyword matching
+   - Reduced false positives
+
+3. **Response Generation**:
+   - Optimized response templates
+   - Efficient text processing
+   - Smart context management
+   - Improved response quality
 
 ## Usage
 
