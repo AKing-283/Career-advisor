@@ -1,64 +1,84 @@
-# Career Path Explorer
+# Career Guidance Assistant
 
-This is a friendly career exploration tool that helps you discover career paths that match your interests and skills. Whether you're just starting out or looking for a change, we're here to help you find your perfect career match!
+An AI-powered career guidance assistant that helps users explore career paths, understand required skills, and make informed career decisions.
 
-## What's Inside?
+## Features
 
-- **Smart Career Matching**: We'll help you find careers that match your interests and skills
-- **Detailed Career Info**: Get the lowdown on different careers, from required skills to education paths
-- **Interactive Chat**: Have a natural conversation about your career interests
-- **Personalized Recommendations**: Get career suggestions tailored just for you
+- Career path exploration
+- Skills and education requirements
+- Industry insights
+- Personalized career recommendations
+- Interactive career guidance
 
-## Quick Start
+## Setup
 
-1. First, make sure you have Python installed on your computer
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd career-guidance-assistant
+```
+
+2. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up your Together API key:
+   - Sign up for a Together AI account at [https://www.together.ai](https://www.together.ai)
+   - Get your API key from the Together AI dashboard
+   - Create a `.env` file in the project root:
    ```
-3. Run the app:
-   ```bash
-   streamlit run streamlit_app.py
+   TOGETHER_API_KEY=your_api_key_here
    ```
 
-## How It Works
+5. Run the application:
+```bash
+python app.py
+```
 
-1. **Share Your Interests**: Tell us about what you enjoy doing, your skills, and what you're looking for in a career
-2. **Get Matched**: We'll suggest careers that match your interests and preferences
-3. **Explore Details**: Learn more about each career path, including:
-   - What the job is really like
-   - Skills you'll need
-   - Education requirements
-   - Growth opportunities
+## API Key Configuration
 
-## Career Categories
+The application requires a Together AI API key to function properly. Follow these steps to set up your API key:
 
-We cover a wide range of careers across different fields:
+1. Visit [Together AI](https://www.together.ai) and create an account
+2. Navigate to your dashboard and find your API key
+3. Create a `.env` file in the project root directory
+4. Add your API key to the `.env` file:
+   ```
+   TOGETHER_API_KEY=your_api_key_here
+   ```
+5. Make sure the `.env` file is in your `.gitignore` to keep your API key secure
 
-- **STEM**: From software engineering to data science
-- **Healthcare**: Medical, nursing, and mental health careers
-- **Sports & Fitness**: Sports medicine, training, and wellness
-- **Creative Arts**: Design, content creation, and digital arts
-- **Business**: Marketing, finance, and management roles
-- **Science & Research**: Environmental science, research, and analysis
+## Usage
 
-## Tips for Best Results
+1. Start the application
+2. Enter your career-related questions or interests
+3. Get personalized career guidance and recommendations
+4. Explore different career paths and their requirements
 
-- Be specific about what you enjoy doing
-- Share your skills and interests
-- Tell us what matters to you in a career
-- Don't be afraid to explore different options!
+## Example Queries
 
-## Need Help?
+- "I want to become a software developer"
+- "What skills do I need for a career in marketing?"
+- "Tell me about careers in healthcare"
+- "How can I transition into data science?"
 
-If you run into any issues or have questions, feel free to:
-- Check the documentation
-- Open an issue on GitHub
-- Reach out to the community
+## Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
 
 ---
