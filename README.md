@@ -72,4 +72,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Made with ❤️ by career enthusiasts who want to help others find their perfect career path! # Career-advisor
+Made with ❤️ by career enthusiasts who want to help others find their perfect career path! 
