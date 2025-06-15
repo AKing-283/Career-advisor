@@ -37,10 +37,12 @@ pip install -r requirements.txt
    TOGETHER_API_KEY=your_api_key_here
    ```
 
-5. Run the application:
+5. Run the Streamlit application:
 ```bash
-python app.py
+streamlit run streamlit_app.py
 ```
+
+The application will open in your default web browser. If it doesn't open automatically, you can access it at http://localhost:8501
 
 ## API Key Configuration
 
@@ -57,10 +59,11 @@ The application requires a Together AI API key to function properly. Follow thes
 
 ## Usage
 
-1. Start the application
-2. Enter your career-related questions or interests
-3. Get personalized career guidance and recommendations
-4. Explore different career paths and their requirements
+1. Start the Streamlit application using `streamlit run streamlit_app.py`
+2. The web interface will open in your browser
+3. Enter your career-related questions or interests in the chat interface
+4. Get personalized career guidance and recommendations
+5. Explore different career paths and their requirements
 
 ## Example Queries
 
@@ -69,6 +72,16 @@ The application requires a Together AI API key to function properly. Follow thes
 - "Tell me about careers in healthcare"
 - "How can I transition into data science?"
 
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Make sure your Together API key is correctly set in the `.env` file
+2. Verify that all dependencies are installed correctly
+3. Check that you're running the correct file (`streamlit_app.py`)
+4. Ensure your virtual environment is activated
+5. Try refreshing the browser if the Streamlit interface doesn't load properly
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -76,9 +89,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository or contact the maintainers.
 
 ---
